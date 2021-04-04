@@ -51,7 +51,6 @@ int valid(int num, int y, int x, int grid[4][4])
     }
     while (j < y)
     {
-		// 
         if (grid [j][x] == num)
             return (0);
         j++;
