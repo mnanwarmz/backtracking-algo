@@ -37,7 +37,7 @@ void	update_cross(int grid[][4], int rowcol[][4], int yx[2], int total)
 		max_val = grid[coor[i][0]][coor[i][1]];
 		total = (max_val == 0) ? 0 : 1;
 		j = 0;
-		while (j < 4)
+		while (i < 4)
 		{
 			is_higher(grid[coor[i][0] + mv[i][0] * j]
 			[coor[i][1] + mv[i][1] * j], &max_val, &total);
