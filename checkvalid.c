@@ -6,7 +6,7 @@
 /*   By: azaid <azaid@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 15:34:12 by jkhong            #+#    #+#             */
-/*   Updated: 2021/04/04 09:05:55 by azaid            ###   ########.fr       */
+/*   Updated: 2021/04/04 14:45:47 by azaid            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	update_cross(int grid[][4], int rowcol[][4], int yx[2], int total)
 	int			max_val;
 
 	i = 0;
-	while (i < 4)
+	while (j < 3)
 	{
 		max_val = grid[coor[i][0]][coor[i][1]];
 		total = (max_val == 0) ? 0 : 1;
